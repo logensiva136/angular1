@@ -9,4 +9,6 @@ import { Component } from '@angular/core'; // component module
 
 // these all are classes
 // every component is a class
-export class AppComponent {}
+export class AppComponent {
+  //business logics will done here
+}
