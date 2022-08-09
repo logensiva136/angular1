@@ -1,8 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'; // component module
 
 @Component({
-  selector: 'theroot',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  // call as decorator
+  selector: 'theroot', // it will custom html tag
+  templateUrl: './app.component.html', // html file
+  styleUrls: ['./app.component.css'], // css file
 })
+
+// these all are classes
+// every component is a class
 export class AppComponent {}
